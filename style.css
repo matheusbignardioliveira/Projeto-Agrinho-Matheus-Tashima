@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #05070a; /* Preto profundo industrial */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Courier New', Courier, monospace; /* Estilo terminal/científico */
+}
+
+canvas {
+  display: block;
+  box-shadow: 0 0 40px rgba(0, 255, 150, 0.15);
+  border: 1px solid #1a233a;
+}
